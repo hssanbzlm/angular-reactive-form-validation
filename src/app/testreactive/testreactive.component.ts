@@ -51,7 +51,7 @@ export class TestreactiveComponent implements OnInit {
   onSubmit() {  
     //submit button clicked , so submitted is true , this is used in the HTML file to trigger errors messages after submit button neing clicked
       this.submitted = true;
-      //this give you an idea of submitted form through console
+      //this gives you an idea of submitted form through console
    console.log(this.registerForm.controls)  
 
       // stop here if form is invalid
